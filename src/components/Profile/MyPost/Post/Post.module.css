@@ -1,0 +1,28 @@
+.post {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.imgBlock {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    margin-right: 5px;
+    background:
+            url("https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1608/tuktukdesign160800043/61010830-user-icon-man-profile-businessman-avatar-person-glyph-vector-illustration.jpg?ver=6") no-repeat center;
+    background-size: 100%;
+}
+
+.imgBlock img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+}

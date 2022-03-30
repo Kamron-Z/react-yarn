@@ -1,0 +1,8 @@
+.btnBlock {
+    margin: 10px 0;
+}
+
+.btnBlock button {
+    padding: 8px 32px;
+    cursor: pointer;
+}

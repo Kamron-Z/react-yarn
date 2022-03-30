@@ -1,0 +1,25 @@
+.aside {
+    padding: 10px;
+    grid-area: a;
+    background-color: green;
+}
+
+.link {
+    color: #fff;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: .3s all;
+}
+
+.link a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link a.active {
+    color: gold;
+}
+
+.link:hover {
+    opacity: 1;
+}

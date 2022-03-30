@@ -1,0 +1,22 @@
+.usersBlock {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.dialogsImg {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+    background:
+            url("https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1608/tuktukdesign160800043/61010830-user-icon-man-profile-businessman-avatar-person-glyph-vector-illustration.jpg?ver=6") no-repeat center;
+    background-size: 100%;
+}
+
+.dialogsImg img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}

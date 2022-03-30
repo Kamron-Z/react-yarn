@@ -1,0 +1,50 @@
+
+.dialogsBlock {
+    display: flex;
+    align-items: center;
+    grid-gap: 2px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.dialogsBlock:hover {
+    background: #4eac6d;
+}
+
+.dialogsBlock.active {
+    background: #4eac6d;
+}
+
+.dialogsImg {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+    background:
+            url("https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1608/tuktukdesign160800043/61010830-user-icon-man-profile-businessman-avatar-person-glyph-vector-illustration.jpg?ver=6") no-repeat center;
+    background-size: 100%;
+}
+
+.dialogsImg img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.dialogsName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dialogsCount {
+    background: rgba(52,58,64,.18);
+    border-radius: 5px;
+    color: #343a40;
+    padding: 5px;
+    margin-left: auto;
+}
